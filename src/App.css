@@ -1,0 +1,27 @@
+*{
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+body{
+  min-height: 100vh;
+}
+.dropdown-menu[data-bs-popper] {
+    top: 100%;
+    left: -60px !important;
+    margin-top: var(--bs-dropdown-spacer);
+}
+.class-for-header{
+  height: 12vh !important;
+}
+.class-for-sidebar{
+  background-color:#FFFFFF;
+  height: calc(100vh - 12vh);
+  
+}
+.class-for-contents{
+  background-color:#FFFFFF;
+  overflow-x: hidden;
+  height: calc(100vh - 12vh);
+
+}

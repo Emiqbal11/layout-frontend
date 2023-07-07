@@ -1,0 +1,12 @@
+.image-class{
+    width: 60px;
+    height: 60px;
+    object-fit: cover;
+}
+.vector-image-class{
+    width: 30px;
+    height: 30px;
+    border: 1px solid gray;
+    border-radius: 50%;
+    object-fit: cover;
+}
