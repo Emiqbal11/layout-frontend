@@ -5,7 +5,7 @@ import Sidebar from "./Layout/Sidebar/Sidebar";
 import { Outlet, RouterProvider, createBrowserRouter } from "react-router-dom";
 import Products from "./Pages/Products";
 import Reports from "./Pages/Reports";
-import Home from "./Pages/Home";
+import DashboardSa from "./Pages/StateAgent/Dashboard/DashboardSa";
 
 function App() {
   const Layout = () => {
@@ -41,7 +41,7 @@ function App() {
       children: [
         {
           path: "/",
-          element: <Home />,
+          element: <DashboardSa />,
         },
         {
           path: "/products",

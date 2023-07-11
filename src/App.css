@@ -1,3 +1,5 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700;900&display=swap");
+
 *{
   box-sizing: border-box;
   padding: 0;
@@ -5,10 +7,15 @@
 }
 body{
   min-height: 100vh;
+font-family: "Roboto", sans-serif;
+
+}
+a{
+  text-decoration: none !important;
 }
 .dropdown-menu[data-bs-popper] {
     top: 100%;
-    left: -60px !important;
+    left: -62px !important;
     margin-top: var(--bs-dropdown-spacer);
 }
 .class-for-header{
@@ -17,7 +24,6 @@ body{
 .class-for-sidebar{
   background-color:#FFFFFF;
   height: calc(100vh - 12vh);
-  
 }
 .class-for-contents{
   background-color:#FFFFFF;

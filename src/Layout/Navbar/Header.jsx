@@ -7,7 +7,7 @@ import Navbar from "react-bootstrap/Navbar";
 import NavDropdown from "react-bootstrap/NavDropdown";
 import Offcanvas from "react-bootstrap/Offcanvas";
 import Logo from "../../assets/AEDMS.svg";
-import vector from "../../assets/Vector.png";
+import vector from "../../assets/Vector.svg";
 
 import "./header.css";
 
@@ -32,7 +32,9 @@ const Header = () => {
           </Offcanvas.Header>
           <Offcanvas.Body>
             <Nav className="justify-content-end align-items-center flex-grow-1 me-5">
-              <img src={vector} className="vector-image-class" />
+              <div>
+                <img src={vector} className="vector-image-class" />
+              </div>
               <NavDropdown title="Ao" id={`offcanvasNavbarDropdown-expand-sm`}>
                 <NavDropdown.Item href="#action3">Logout</NavDropdown.Item>
               </NavDropdown>

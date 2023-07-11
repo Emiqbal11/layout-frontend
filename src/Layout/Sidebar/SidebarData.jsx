@@ -22,9 +22,16 @@ export const SidebarData = [
     icon: <FaIcons.FaCartPlus />,
     cName: "nav-text",
   },
+
   {
-    title: "Emission Data",
-    path: "/team",
+    title: "Role Management",
+    path: "/products",
+    icon: <IoIcons.IoMdPeople />,
+    cName: "nav-text",
+  },
+  {
+    title: "ICAO Yearly Reporting",
+    path: "/products",
     icon: <IoIcons.IoMdPeople />,
     cName: "nav-text",
   },
