@@ -29,13 +29,11 @@ body, header, main, aside {
 
 /* Define header styles */
 .header {
-  background-color: #333;
-  color: #fff;
   height: 80px !important;
 }
 .maincontainer {
   display: flex;
-  height: calc(100vh - 80px);
+  height: calc(100vh - 84px);
 }
 
 /* Define sidebar styles */

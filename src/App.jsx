@@ -11,7 +11,7 @@ function App() {
   const Layout = () => {
     return (
       <>
-        <div className="header">
+        <div className="header shadow-sm mb-1 bg-body rounded">
           <Header />
         </div>
         <div className="maincontainer">

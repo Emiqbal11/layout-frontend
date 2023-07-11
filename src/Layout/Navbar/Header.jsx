@@ -14,8 +14,8 @@ import "./header.css";
 const Header = () => {
   return (
     <>
-    
-      <Navbar expand="sm" className="bg-body-light">
+
+      <Navbar expand="sm" className="bg-body-light mx-2">
         <Navbar.Brand href="#" className="d-flex gap-2 align-items-center">
           <img src={Logo} className="image-class" />
           <b> AEDMS</b>
