@@ -38,16 +38,17 @@ body, header, main, aside {
 
 /* Define sidebar styles */
 .sidebar {
-  background-color: #f2f2f2;
-  width: 20%;
+  background-color: #FFFFFF;
+  width: 18%;
+  overflow: hidden;
 }
 
 /* Define content styles */
 .content {
   flex-grow: 1;
-  background-color: yellow;
-  padding: 20px;
-}
+  background-color: #f2f2f2;
+  padding: 5px;
+  overflow-y: auto;}
 
 /* Media queries for responsive layout */
 @media screen and (max-width: 768px) {
