@@ -11,26 +11,17 @@ function App() {
   const Layout = () => {
     return (
       <>
-        <Container fluid>
-          <Row>
-            <Col md={12} className="class-for-header px-2 border-bottom px-1 ">
-              <Header />
-            </Col>
-          </Row>
-          <Row className="p-0 ">
-            <Col
-              sm={4}
-              md={2}
-              lg={2}
-              className="class-for-sidebar border-end p-0 "
-            >
-              <Sidebar />
-            </Col>
-            <Col sm={12} md={10} lg={10} className="class-for-contents">
-              <Outlet />
-            </Col>
-          </Row>
-        </Container>
+        <div className="header">
+          <Header />
+        </div>
+        <div className="maincontainer">
+          <aside className="sidebar">
+            <Sidebar />
+          </aside>
+          <main className="content">
+            <Outlet />
+          </main>
+        </div>
       </>
     );
   };

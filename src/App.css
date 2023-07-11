@@ -15,19 +15,49 @@ a{
 }
 .dropdown-menu[data-bs-popper] {
     top: 100%;
-    left: -62px !important;
+    left: -70px !important;
     margin-top: var(--bs-dropdown-spacer);
 }
-.class-for-header{
-  height: 12vh !important;
+/* Reset default margin and padding */
+body, header, main, aside {
+  margin: 0;
+  padding: 0;
 }
-.class-for-sidebar{
-  background-color:#FFFFFF;
-  height: calc(100vh - 12vh);
-}
-.class-for-contents{
-  background-color:#FFFFFF;
-  overflow-x: hidden;
-  height: calc(100vh - 12vh);
 
+/* Set container to full viewport height */
+
+
+/* Define header styles */
+.header {
+  background-color: #333;
+  color: #fff;
+  height: 80px !important;
+}
+.maincontainer {
+  display: flex;
+  height: calc(100vh - 80px);
+}
+
+/* Define sidebar styles */
+.sidebar {
+  background-color: #f2f2f2;
+  width: 20%;
+}
+
+/* Define content styles */
+.content {
+  flex-grow: 1;
+  background-color: yellow;
+  padding: 20px;
+}
+
+/* Media queries for responsive layout */
+@media screen and (max-width: 768px) {
+  .container {
+    flex-direction: column;
+  }
+  
+  .sidebar {
+    width: 100%;
+  }
 }
